@@ -9,12 +9,12 @@ import { Footer } from '@/components/footer';
 
 export default function Home() {
   const carouselImages = [
-    { src: '/lobby.jpeg', alt: 'Elegante lobby del Hotel El Dorado' },
-    { src: '/queen.jpeg', alt: 'Habitación Queen' },
-    { src: '/matrimonial.jpeg', alt: 'Habitación Matrimonial' },
-    { src: '/doble.jpeg', alt: 'Habitación Doble' },
-    { src: '/terraza.jpeg', alt: 'Terraza del hotel' },
     { src: '/fachada.jpeg', alt: 'Fachada del Hotel El Dorado' },
+    { src: '/terraza.jpeg', alt: 'Terraza del hotel' },
+    { src: '/doble.jpeg', alt: 'Habitación Doble' },
+    { src: '/matrimonial.jpeg', alt: 'Habitación Matrimonial' },
+    { src: '/queen.jpeg', alt: 'Habitación Queen' },
+    { src: '/lobby.jpeg', alt: 'Elegante lobby del Hotel El Dorado' },
   ];
 
   return (
