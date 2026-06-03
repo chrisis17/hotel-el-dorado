@@ -1,25 +1,32 @@
 export function RoomsSection() {
   const rooms = [
     {
+      name: 'Habitación Simple',
+      description: 'Cómoda y funcional, ideal para una persona o viajeros que buscan practicidad y buen precio',
+      price: 'S/60 noche',
+      features: ['WiFi Gratis', 'TV Inteligente', 'Baño Privado', 'Servicio de Room Service'],
+      image: '/simple.png',
+    },
+    {
       name: 'Habitación Matrimonial',
       description: 'Espaciosa y elegante, con cama matrimonial y todas las comodidades para una estadía perfecta',
-      price: 'S/90 noche',
+      price: 'S/80 noche',
       features: ['WiFi Gratis', 'TV Inteligente', 'Baño Privado', 'Servicio de Room Service'],
       image: '/matrimonial.jpeg',
     },
     {
-      name: 'Habitación Doble',
-      description: 'Amplia habitación con dos camas, perfecta para familias o grupos de amigos',
-      price: 'S/110 noche',
-      features: ['WiFi Gratis', 'TV Inteligente', 'Baño Privado', 'Servicio de Room Service'],
-      image: '/doble.jpeg',
-    },
-    {
       name: 'Habitación Queen',
       description: 'Acogedora habitación con cama Queen, ideal para parejas o viajeros que buscan confort',
-      price: 'S/110 noche',
+      price: 'S/90 noche',
       features: ['WiFi Gratis', 'TV Inteligente', 'Baño Privado', 'Servicio de Room Service'],
       image: '/queen.jpeg',
+    },
+    {
+      name: 'Habitación Doble',
+      description: 'Amplia habitación con dos camas, perfecta para familias o grupos de amigos',
+      price: 'S/100 noche',
+      features: ['WiFi Gratis', 'TV Inteligente', 'Baño Privado', 'Servicio de Room Service'],
+      image: '/doble.jpeg',
     },
   ];
 
@@ -35,7 +42,7 @@ export function RoomsSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {rooms.map((room, index) => (
             <div
               key={index}
