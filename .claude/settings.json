@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(nslookup -type=NS pe. 8.8.8.8)",
+      "PowerShell(nslookup -type=SOA hoteleldorado.pe 1.1.1.1)",
+      "PowerShell(nslookup -type=NS hoteleldorado.pe PE1.DNSNODE.NET)",
+      "PowerShell(nslookup -type=NS hoteleldorado.pe QUIPU.RCP.NET.pe)",
+      "PowerShell(nslookup -type=A hoteleldorado.pe dina.ns.cloudflare.com)",
+      "PowerShell(nslookup -type=A hoteleldorado.pe peter.ns.cloudflare.com)",
+      "PowerShell(nslookup -type=A www.hoteleldorado.pe dina.ns.cloudflare.com)",
+      "PowerShell(nslookup -type=A hoteleldorado.pe 8.8.8.8)",
+      "PowerShell(nslookup -type=A hoteleldorado.pe ns1.vercel-dns.com)",
+      "PowerShell(nslookup -type=A www.hoteleldorado.pe ns1.vercel-dns.com)"
+    ]
+  }
+}

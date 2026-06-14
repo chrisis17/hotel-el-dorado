@@ -66,7 +66,7 @@ export function ContactSection() {
                   <span className="text-2xl">✉️</span> Email
                 </h4>
                 <p className="text-muted-foreground">
-                  info@eldorado.com
+                  hoteleldoradogroup@outlook.com
                 </p>
               </div>
             </div>

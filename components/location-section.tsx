@@ -44,7 +44,7 @@ export function LocationSection() {
                 Ver en Google Maps
               </a>
               <p className="text-muted-foreground mb-2">
-                <span className="text-primary font-semibold">Email:</span> info@eldorado.com
+                <span className="text-primary font-semibold">Email:</span> hoteleldoradogroup@outlook.com
               </p>
             </div>
 
